@@ -9,20 +9,8 @@ import {
   CartesianGrid,
 } from 'recharts'
 
-import { format, parseISO, subDays } from 'date-fns'
-
-//   const data = [];
-//   for (let num = 30; num >= 0; num--) {
-//     data.push({
-//       date: subDays(new Date(), num).toISOString().substr(0, 10),
-//       value: 1 + Math.random(),
-//     });
-//   }
-
 export default function Overview(apiData) {
-  console.log('apidata', apiData.props)
-  console.log('data date', apiData?.props[0]?.Date)
-  console.log('data value', apiData?.props[0]?.Close)
+
   return (
     <ResponsiveContainer width="100%" height={300}>
       <AreaChart data={apiData.props}>

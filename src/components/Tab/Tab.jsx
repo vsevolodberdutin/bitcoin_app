@@ -56,8 +56,6 @@ function Tab() {
     }
   }
 
-const btnOver = document.getElementById("btnOver")
-const btnHis = document.getElementById("btnHis")
 const targetDivOver = document.getElementById("switchOver")
 const targetDivHist = document.getElementById("switchHist")
 
@@ -66,14 +64,12 @@ function fOver() {
     targetDivOver.style.display = "block"
     targetDivHist.style.display = "none"
   } 
-  console.log('btn over click')
 }
 function fHist() {
   if (targetDivHist.style.display == "none") {
     targetDivHist.style.display = "block"
     targetDivOver.style.display = "none"
   } 
-  console.log('btn his click')
 }
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Tag, Space, Typography } from 'antd'
+import { Table, Typography } from 'antd'
 
 function History(props) {
 
