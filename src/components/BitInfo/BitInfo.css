@@ -1,0 +1,29 @@
+
+.wrapperInfo{}
+
+
+.priceBlock{
+display: flex;
+}
+.price{
+    color: #121414;
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+
+.changeBlock{
+    font-size: 20px;
+    color: rgb(50, 124, 72);
+}
+.change{
+    margin-top: 10px;
+}
+.changeProcent{}
+
+
+.date{
+    color: rgb(87, 87, 87);
+}

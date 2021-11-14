@@ -1,0 +1,13 @@
+.wrapper{
+    margin: 60px;
+} 
+
+.nav{
+    display: flex;
+    margin-bottom: 40px;
+}
+.nav img{
+    height: 70px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
